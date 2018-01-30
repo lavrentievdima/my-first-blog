@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+
+<a href="{% url 'post_new' %}" class="top-menu">добавитьт пост</a>
+<h1>Test</h1>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
