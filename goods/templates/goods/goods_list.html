@@ -1,0 +1,17 @@
+{% extends 'goods/base.html' %}
+{% block content %}
+    <h1>Товары</h1>
+    <br>
+    {% for good in goods %}
+        <p>
+        <h2>{{ good.goods_name }}</h2>
+        <div>{{ good.goods_description }}</div>
+        <div>Кол. в ящике: {{ good.goods_number_in_box }}</div>
+        <div>Вес: {{ good.goods_weight }}</div>
+        <div>Вид: {{ good.goods_kind }}</div>
+        <div>Фото: {{ good.goods_photo_url }}</div>
+        <div>Цена: {{ good.goods_price }}</div>
+        </p>
+
+    {% endfor %}
+{% endblock %}

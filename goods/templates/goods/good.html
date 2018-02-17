@@ -1,0 +1,18 @@
+{% extends 'goods/base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="row">
+    <h1>{{ good.goods_name }}</h1>
+    <div class="col s12 m3 l4">
+        <img class="materialboxed" width="100%" src="{{ good.goods_photo_url }}">
+    </div>
+    <div class="col s12 m9 l8">
+        <div>
+            <p class="flow-text">{{ good.goods_description }}</p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}

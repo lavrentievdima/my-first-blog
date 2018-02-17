@@ -1,0 +1,88 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет магазин | инкубационное яйцо</title>
+    <link rel="stylesheet" href="{% static 'node_modules/materialize-css/dist/css/materialize.min.css' %}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/goods_style.css' %}">
+    {% block meta %}
+
+    {% endblock %}
+</head>
+<body>
+
+<div>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="{% url 'index' %}" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="{% url 'index' %}">Главная</a></li>
+                <li><a href="{% url 'goods_list' %}">Продукция</a></li>
+                <li><a href="{% url 'pay_delivery' %}">Оплата и доставка</a></li>
+                <li><a href="{% url 'guarantee' %}">Гарантии</a></li>
+                <li><a href="{% url 'about' %}">О компании</a></li>
+                <li><a href="{% url 'contacts' %}">Контакты</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="{% url 'index' %}">Главная</a></li>
+                <li><a href="{% url 'goods_list' %}">Продукция</a></li>
+                <li><a href="{% url 'pay_delivery' %}">Оплата и доставка</a></li>
+                <li><a href="{% url 'guarantee' %}">Гарантии</a></li>
+                <li><a href="{% url 'about' %}">О компании</a></li>
+                <li><a href="{% url 'contacts' %}">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    {% block content %}
+    {% endblock %}
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'index' %}">Главная</a></li>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'goods_list' %}">Продукция</a></li>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'pay_delivery' %}">Оплата и доставка</a></li>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'guarantee' %}">Гарантии</a></li>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'about' %}">О компании</a></li>
+                        <li><a class="grey-text text-lighten-3" href="{% url 'contacts' %}">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017-2018 Copyright Text
+{#                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>#}
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="{% static 'node_modules/jquery/dist/jquery.min.js' %}"></script>
+<script src="{% static 'node_modules/materialize-css/dist/js/materialize.min.js' %}"></script>
+<script src="{% static 'node_modules/hammerjs/hammer.min.js' %}"></script>
+
+<script>
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav();
+        $('.parallax').parallax();
+    });
+</script>
+
+{% block meta_end_body %}
+
+{% endblock %}
+</body>
+</html>
