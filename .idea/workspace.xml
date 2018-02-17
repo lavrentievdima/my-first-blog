@@ -2,325 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4dfade0-6ef0-42e1-84eb-5d27d2b7caa7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/migrations/0002_auto_20180216_1510.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/migrations/0003_auto_20180216_1528.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/css/goods_style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/images/cobb500.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/images/parallax1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/images/parallax2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/images/ross300.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/.yarn-integrity" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/.bowerrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/.jscsrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/.jshintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/CONTRIBUTING.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/Gruntfile.coffee" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/LICENSE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/changelog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/hammer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/hammer.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/hammer.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/hammer.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/expose.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/hammer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/hammer.prefix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/hammer.suffix.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input/mouse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input/pointerevent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input/singletouch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input/touch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/input/touchmouse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/manager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/attribute.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/pan.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/pinch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/press.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/rotate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/swipe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/recognizers/tap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/touchaction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/src/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/assets/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/compute_touch_action.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/input.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/log.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/multiple.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/nested.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/simulator-googlemaps.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/simulator.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/touchaction.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/manual/visual.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/blanket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/lodash.compat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/qunit.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/qunit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/assets/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/gestures/test_pan.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/gestures/test_pinch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/gestures/test_swipe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_enable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_events.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_gestures.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_hammer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_jquery_plugin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_multiple_taps.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_nested_gesture_recognizers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_propagation_bubble.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_require_failure.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_simultaneous_recognition.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/hammerjs/tests/unit/test_utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/AUTHORS.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.slim.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/dist/jquery.slim.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/external/sizzle/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/external/sizzle/dist/sizzle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/.eslintrc.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/jsonp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/load.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/parseXML.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/script.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/var/location.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/var/nonce.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/var/rquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/ajax/xhr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes/attr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes/classes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes/prop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/attributes/val.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/callbacks.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/DOMEval.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/access.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/camelCase.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/init.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/nodeName.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/parseHTML.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/ready-no-deferred.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/ready.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/readyException.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/stripAndCollapse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/toType.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/core/var/rsingleTag.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/addGetHookIf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/adjustCSS.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/curCSS.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/showHide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/cssExpand.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/getStyles.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/isHiddenWithinTree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/rboxStyle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/rnumnonpx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/css/var/swap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/data/Data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/data/var/acceptData.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/data/var/dataPriv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/data/var/dataUser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/deferred.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/deferred/exceptionHook.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/deprecated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/dimensions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/effects.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/effects/Tween.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event/ajax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event/alias.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event/focusin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/event/trigger.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/exports/amd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/exports/global.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/_evalUrl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/buildFragment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/getAll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/setGlobalEval.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/var/rcheckableType.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/var/rscriptType.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/var/rtagName.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/manipulation/wrapMap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/offset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/queue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/queue/delay.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/selector-native.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/selector-sizzle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/selector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/serialize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/traversing.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/traversing/findFilter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/traversing/var/dir.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/traversing/var/rneedsContext.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/traversing/var/siblings.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/ObjectFunctionString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/arr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/class2type.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/concat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/document.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/documentElement.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/fnToString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/getProto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/hasOwn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/indexOf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/isFunction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/isWindow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/pnum.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/push.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/rcssNum.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/rnothtmlwhite.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/slice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/support.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/var/toString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/jquery/src/wrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/Gruntfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/css/materialize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/css/materialize.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Bold.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Bold.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Medium.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Medium.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/js/materialize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/dist/js/materialize.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/extras/noUiSlider/nouislider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/extras/noUiSlider/nouislider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/extras/noUiSlider/nouislider.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/animation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/buttons.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/cards.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/character_counter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/chips.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/collapsible.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/date_picker/picker.date.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/date_picker/picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/date_picker/picker.time.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/dropdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/forms.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/global.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/hammer.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/initial.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/jquery.easing.1.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/jquery.hammer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/materialbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/modal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/parallax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/pushpin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/scrollFire.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/scrollspy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/sideNav.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/tabs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/tapTarget.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/toasts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/tooltip.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/transitions.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/velocity.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/js/waves.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_badges.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_buttons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_cards.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_carousel.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_chips.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_collapsible.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_color.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_dropdown.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_global.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_grid.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_icons-material-design.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_materialbox.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_modal.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_navbar.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_normalize.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_preloader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_pulse.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_roboto.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_sideNav.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_slider.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_table_of_contents.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_tabs.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_tapTarget.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_toast.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_tooltip.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_transitions.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_typography.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/_waves.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/date_picker/_default.date.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/date_picker/_default.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/date_picker/_default.time.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_checkboxes.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_file-input.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_forms.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_input-fields.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_radio-buttons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_range.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_select.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/components/forms/_switches.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/node_modules/materialize-css/sass/materialize.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/static/yarn.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/about.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/aside_bar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/contacts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/good.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/goods_list.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/guarantee.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/templates/goods/pay_delivery.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goods/views.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/eggs/settings.py" afterPath="$PROJECT_DIR$/eggs/settings.py" />
-      <change beforePath="$PROJECT_DIR$/eggs/urls.py" afterPath="$PROJECT_DIR$/eggs/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -672,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517326193769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1518872297906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518872297906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -736,7 +425,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,6 +479,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -894,6 +585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,6 +649,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12411">
           <caret line="5" column="61104" lean-forward="true" selection-start-line="5" selection-start-column="61104" selection-end-line="5" selection-end-column="61104" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,6 +695,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,6 +722,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
