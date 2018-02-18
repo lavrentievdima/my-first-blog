@@ -2,14 +2,21 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="parallax-container">
-    <div class="parallax"><img src="{% static 'images/parallax1.jpg' %}"></div>
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="{% static 'images/parallax1.jpg' %}"></a>
+    <a class="carousel-item" href="#two!"><img src="{% static 'images/parallax2.jpg' %}"></a>
+    <a class="carousel-item" href="#three!"><img src="{% static 'images/parallax3.jpg' %}"></a>
+    <a class="carousel-item" href="#four!"><img src="{% static 'images/parallax4.jpg' %}"></a>
 </div>
+
+<div>
+
+</div>
+
     <div class="section white">
         <div class="row container">
-            <h2 class="header">Инкубационное яйцо</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
-                this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <h3 class="header">Инкубационное яйцо</h3>
+            <p class="grey-text text-darken-3 lighten-3">Текст для главной страници</p>
 
 
             {% for good in goods %}

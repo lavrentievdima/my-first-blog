@@ -6,7 +6,7 @@ class Good(models.Model):
     goods_description = models.TextField(blank=True, verbose_name=u"Описание")
     goods_number_in_box = models.IntegerField(blank=True, verbose_name=u"Количество в ящике")
     goods_weight = models.IntegerField( blank=True, verbose_name=u"Средний вес")
-    goods_kind = models.ForeignKey('goods.Type', verbose_name=u"Тип яйца")
+    goods_kind = models.ForeignKey('goods.Type', verbose_name=u"Тип товара")
     goods_photo_url = models.CharField(max_length=1000, blank=True, verbose_name=u"Ссылка на фото")
     goods_price = models.FloatField(max_length=10, blank=True, verbose_name=u"Цена (пр: 6,4)")
 
@@ -14,7 +14,7 @@ class Good(models.Model):
         return self.goods_name
 
 class Type(models.Model):
-    type_name = models.CharField(max_length=1000, verbose_name=u"Тип яйца")
+    type_name = models.CharField(max_length=1000, verbose_name=u"Тип товара")
 
     def __str__(self):
         return self.type_name
@@ -39,14 +39,16 @@ class UsersInSite(models.Model):
         return self.user_name
 
 class Contacts(models.Model):
-    phone1 = models.IntegerField(verbose_name=u"Телефон")
-    phone2 = models.IntegerField(blank=True, verbose_name=u"Телефон2 не обязательный")
-    phone3 = models.IntegerField(blank=True, verbose_name=u"Телефон3 не обязательный")
-    phone4 = models.IntegerField(blank=True, verbose_name=u"Телефон4 не обязательный")
-    phone5 = models.IntegerField(blank=True, verbose_name=u"Телефон5 не обязательный")
+    phone1 = models.CharField(max_length=200, verbose_name=u"Телефон")
+    phone2 = models.CharField(max_length=200, blank=True, verbose_name=u"Телефон2 не обязательный")
+    phone3 = models.CharField(max_length=200, blank=True, verbose_name=u"Телефон3 не обязательный")
+    phone4 = models.CharField(max_length=200, blank=True, verbose_name=u"Телефон4 не обязательный")
+    phone5 = models.CharField(max_length=200, blank=True, verbose_name=u"Телефон5 не обязательный")
     address = models.CharField(max_length=300, blank=True, verbose_name=u"Адрес")
     address2 = models.CharField(max_length=300, blank=True, verbose_name=u"Адрес2")
     email = models.CharField(max_length=50, blank=True, verbose_name=u"Эл. почта")
+    min_summ_order = models.CharField(max_length=50, blank=True, verbose_name=u"Минимальная сумма заказа")
+    curs = models.CharField(max_length=50, blank=True, verbose_name=u"Курс доллара")
 
     def __str__(self):
-        return self.phone1
+        return str(self.phone1)

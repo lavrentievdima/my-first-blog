@@ -1,5 +1,7 @@
 {% extends 'goods/base.html' %}
 {% block content %}
     <h1>Контакты</h1>
-
+{% for contact in contacts %}
+    <div>{{ contact.phone1 }}</div>
+{% endfor %}
 {% endblock %}

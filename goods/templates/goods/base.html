@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/goods_style.css' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
     {% block meta %}
 
     {% endblock %}
@@ -17,9 +18,8 @@
 <div>
     <nav>
         <div class="nav-wrapper">
-            <a href="{% url 'index' %}" class="brand-logo">Logo</a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="left hide-on-med-and-down">
                 <li><a href="{% url 'index' %}">Главная</a></li>
                 <li><a href="{% url 'goods_list' %}">Продукция</a></li>
                 <li><a href="{% url 'pay_delivery' %}">Оплата и доставка</a></li>
@@ -37,6 +37,40 @@
             </ul>
         </div>
     </nav>
+
+    <div class="row main-info">
+        <div class="col s12 m12 l4 add-relative-position">
+            <a href="{% url 'index' %}">
+                <h1 class="logo-text">Инкубационные яйца</h1>
+                <img class="logo" src="{% static 'images/icon.png' %}"/>
+            </a>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="phone">
+                {% for contact in contacts %}
+                    <div>{{ contact.phone1 }}</div>
+                    <div>{{ contact.phone2 }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="min_summ_pay right">
+                {% for contact in contacts %}
+                    <div><label>Минимальная сумма заказа (грн.): </label>{{ contact.min_summ_order }}</div>
+                    <div><label>Курс USD: </label>{{ contact.curs }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="menu-products">
+        <ul class="center">
+            <li><a class="valign-wrapper" href="{% url 'goods_list' %}"><i class="material-icons">vignette</i> Яйцо</a></li>
+            <li><a class="valign-wrapper" href="{% url 'goods_list' %}"><i class="material-icons">shopping_basket</i> Куры, цыплята</a></li>
+            <li><a class="valign-wrapper" href="{% url 'goods_list' %}"><i class="material-icons">restaurant</i> Тушки</a></li>
+            <li class="btn-business"><a class="valign-wrapper" href="{% url 'business' %}"><i class="material-icons">business_center</i> Свой бизнес</a></li>
+        </ul>
+
+    </div>
 
 
     {% block content %}
@@ -79,6 +113,7 @@
     $( document ).ready(function(){
         $(".button-collapse").sideNav();
         $('.parallax').parallax();
+        $('.carousel.carousel-slider').carousel({indicators: true});
     });
 </script>
 
