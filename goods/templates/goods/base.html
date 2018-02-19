@@ -27,6 +27,9 @@
                 <li><a href="{% url 'about' %}">О компании</a></li>
                 <li><a href="{% url 'contacts' %}">Контакты</a></li>
             </ul>
+             <ul class="right hide-on-med-and-down">
+                <li><a href="{% url 'login' %}">Войти</a></li>
+             </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><a href="{% url 'index' %}">Главная</a></li>
                 <li><a href="{% url 'goods_list' %}">Продукция</a></li>
@@ -34,26 +37,30 @@
                 <li><a href="{% url 'guarantee' %}">Гарантии</a></li>
                 <li><a href="{% url 'about' %}">О компании</a></li>
                 <li><a href="{% url 'contacts' %}">Контакты</a></li>
+                <li><a href="{% url 'login' %}">Войти</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="row main-info">
-        <div class="col s12 m12 l4 add-relative-position">
+        <div class="col s12 m4 l3 add-relative-position">
             <a href="{% url 'index' %}">
                 <h1 class="logo-text">Инкубационные яйца</h1>
                 <img class="logo" src="{% static 'images/icon.png' %}"/>
             </a>
         </div>
-        <div class="col s12 m6 l4">
+        <div class="col s12 m5 l6">
             <div class="phone">
+                <span>Звоните нам:</span>
+                <div>
                 {% for contact in contacts %}
-                    <div>{{ contact.phone1 }}</div>
+                    <div>{{ contact.phone1 }},</div>
                     <div>{{ contact.phone2 }}</div>
                 {% endfor %}
+                </div>
             </div>
         </div>
-        <div class="col s12 m6 l4">
+        <div class="col s12 m3 l3">
             <div class="min_summ_pay right">
                 {% for contact in contacts %}
                     <div><label>Минимальная сумма заказа (грн.): </label>{{ contact.min_summ_order }}</div>
@@ -105,10 +112,11 @@
         </div>
     </footer>
 </div>
+<div id="scrollup" class="btn" style="display: block; opacity: 0.7;">▲</div>
 <script src="{% static 'node_modules/jquery/dist/jquery.min.js' %}"></script>
 <script src="{% static 'node_modules/materialize-css/dist/js/materialize.min.js' %}"></script>
 <script src="{% static 'node_modules/hammerjs/hammer.min.js' %}"></script>
-
+<script src="{% static 'js/scrollup.js' %}"></script>
 <script>
     $( document ).ready(function(){
         $(".button-collapse").sideNav();

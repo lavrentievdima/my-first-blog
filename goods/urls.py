@@ -11,5 +11,7 @@ urlpatterns = [
     url(r'^about/$', views.about, name='about'),
     url(r'^contacts/$', views.contacts, name='contacts'),
     url(r'^business/$', views.business, name='business'),
+    url(r'^login/$', views.login, name='login'),
+    url(r'^advantage/$', views.advantage, name='advantage'),
 
 ]

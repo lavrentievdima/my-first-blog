@@ -1,84 +1,172 @@
 /*-----Цвета сайта------
-Текст темный ##795548
+Текст темный #3e2723
 Фон меню #795548
  */
-nav{
-      background-color: #795548 ;
-}
-
-
-.parallax-container {
-      height: calc(100vh - 64px);
-}
-.col{
-      overflow: hidden;
-}
-.add-relative-position{
-      position: relative;
+.add-relative-position {
+    position: relative;
 }
 
 /*----------base--------*/
-.main-info{
-      margin-bottom: 0;
-      border-bottom: 2px solid #795548;
+nav, footer.page-footer {
+    background-color: #795548;
 }
-.logo{
-      height: 100px;
-      margin-top: 10px;
+
+.parallax-container {
+    height: calc(100vh - 64px);
 }
-.logo-text{
-      position: absolute;
-      font-size: 20px;
-      left: 20px;
-      bottom: -5px;
-      color: #281400;
+
+.col {
+    overflow: hidden;
 }
-.menu-products ul{
-      margin-top: 0;
+
+.main-info {
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-bottom: 2px solid #795548;
 }
+
+.logo {
+    height: 100px;
+    margin-top: 10px;
+}
+
+.logo-text {
+    position: absolute;
+    font-size: 20px;
+    left: 20px;
+    bottom: -5px;
+    color: #281400;
+}
+
+.menu-products ul {
+    margin-top: 0;
+}
+
 .menu-products li {
-      display: inline-block;
-      width: 180px;
-      background: linear-gradient(to right, #795548 25%, #5d4037 75%);
-      padding: 10px;
-      margin-bottom: 5px;
-      border-radius: 50px 10px 50px 10px;
-      margin-top: -3px;
+    display: inline-block;
+    width: 180px;
+    background: linear-gradient(to right, #795548 25%, #5d4037 75%);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 50px 10px 50px 10px;
+    margin-top: -3px;
 }
 
 .menu-products li:hover {
-      background: linear-gradient(to right, #795548 0%, #795548 0%);
+    background: linear-gradient(to right, #795548 0%, #795548 0%);
 }
-.menu-products li a{
-      padding-left: 20px;
-      height: 40px;
-      color: white;
-}
-.menu-products li a i{
-      margin-right: 5px;
-}
-.menu-products li.btn-business{
-      border: 3px solid limegreen;
-}
-@media only screen and (min-width: 1000px) {
-      .carousel .carousel-item > img {
-            position: absolute;
-            top: -10%;
-      }
 
-      .carousel.carousel-slider {
-            height: 600px;
-      }
+.menu-products li a {
+    padding-left: 20px;
+    height: 40px;
+    color: white;
 }
+
+.menu-products li a i {
+    margin-right: 5px;
+}
+
+.menu-products li.btn-business {
+    border: 3px solid limegreen;
+}
+
+@media only screen and (min-width: 1000px) {
+    .carousel .carousel-item > img {
+        position: absolute;
+        top: -10%;
+    }
+
+    .carousel.carousel-slider {
+        height: 600px;
+    }
+}
+
 @media only screen and (min-width: 1400px) {
-      .carousel .carousel-item > img {
-            position: absolute;
-            top: -40%;
-      }
+    .carousel .carousel-item > img {
+        position: absolute;
+        top: -40%;
+    }
 }
+
 @media only screen and (min-width: 1600px) {
-      .carousel .carousel-item > img {
-            position: absolute;
-            top: -50%;
-      }
+    .carousel .carousel-item > img {
+        position: absolute;
+        top: -50%;
+    }
+}
+
+.phone div div {
+    color: #3e2723;
+    font-size: 1.9rem;
+    display: inline-block;
+}
+
+.phone div {
+    color: #3e2723;
+}
+
+#scrollup {
+    position: fixed;
+    opacity: 0.9;
+    left: 10px;
+    bottom: 10px;
+    display: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 25px;
+    z-index: 98;
+    height: 70px;
+}
+
+.parallax-contant{
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.8);
+    padding: 50px 30px;
+    color: #281400;
+}
+.parallax-contant input[type=text]:not(.browser-default),
+.parallax-contant input[type=email]:not(.browser-default){
+    border-bottom: 1px solid #281400;
+}
+.advantage-block{
+    background-color: #26a69a;
+}
+.advantage-block .row{
+    margin-bottom: 0;
+}
+.advantage-block .col a{
+    position: relative;
+    border: none;
+    color: white;
+}
+.advantage-block .col:hover{
+    background-color: #2bbbad;
+}
+.advantage-block .col a i{
+    font-size: 36px;
+    position: absolute;
+    left: calc(50% - 18px);
+    top: 5px;
+}
+.advantage-block .col a span{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 41px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+
+
+.login-template {
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+
+
+.advantage-template div{
+    height: 500px;
 }

@@ -36,3 +36,10 @@ def contacts(request):
 def business(request):
     contacts = Contacts.objects.all()
     return render(request, 'goods/business.html', {'contacts': contacts})
+
+def login(request):
+    return render(request, 'goods/login.html')
+
+def advantage(request):
+    contacts = Contacts.objects.all()
+    return render(request, 'goods/advantage.html', {'contacts': contacts})
